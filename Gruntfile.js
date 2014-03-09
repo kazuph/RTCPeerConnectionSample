@@ -3,12 +3,12 @@ module.exports = function(grunt) {
     grunt.initConfig({
         sprockets: {
             files: ["js/src/index.js"],
-            dest: "js/application.min.js"
+            dest: "js/application.js"
         },
         sass: {
             dist: {
                 files: {
-                    "css/application.min.css" : "css/scss/style.scss"
+                    "css/application.css" : "css/scss/style.scss"
                 }
             }
         },
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         uglify: {
             minify: {
                 files: {
-                    "js/application.min.js" : ["js/application.min.js"]
+                    "js/application.min.js" : ["js/application.js"]
                 }
             }
         }

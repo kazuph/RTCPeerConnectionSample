@@ -89,6 +89,19 @@ body {
         padding: 6px;
         width: 368px;
         font-size: 1em; }
+    #wrapper #chatSection .droparea {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 382px;
+      height: 286px;
+      line-height: 286px;
+      background: white;
+      opacity: 0.9;
+      text-align: center;
+      color: #333333;
+      z-index: 100;
+      display: none; }
 
 #members {
   position: fixed;
